@@ -18,13 +18,17 @@ export default function Footer() {
                                     strokeWidth="2"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
-                                    className="w-6 h-6 text-black"
+                                    className="w-8 h-8 text-black"
                                 >
-                                    <path d="M6 3h12" />
-                                    <path d="M12 3v5" />
-                                    <path d="M9 8h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2" />
-                                    <path d="M12 18v4" />
-                                    <path d="M10 22h4" />
+                                    <path d="M16 8a4 4 0 0 0-4-4h-1a5 5 0 0 0-5 5v1h10V8Z" />
+                                    <path d="M6 10v3a5 5 0 0 0 5 5h1a4 4 0 0 0 4-4" />
+                                    <path d="M16 10h3" />
+                                    <circle cx="20" cy="10" r="2" />
+                                    <path d="M4 18h12" />
+                                    <path d="M7 18v-4" />
+                                    <path d="M15 18v-4" />
+                                    <circle cx="6" cy="19" r="2" />
+                                    <circle cx="16" cy="19" r="2" />
                                 </svg>
                             </div>
                             <span className="text-xl font-bold text-white tracking-tight">

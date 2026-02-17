@@ -37,7 +37,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="bg-primary p-2 rounded-md">
-            {/* Custom Jack Hammer / Drill Icon */}
+            {/* Concrete Mixer (Molen) Icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -46,13 +46,17 @@ export default function Navbar() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="w-6 h-6 text-black"
+              className="w-8 h-8 text-black"
             >
-              <path d="M6 3h12" />
-              <path d="M12 3v5" />
-              <path d="M9 8h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2" />
-              <path d="M12 18v4" />
-              <path d="M10 22h4" />
+              <path d="M16 8a4 4 0 0 0-4-4h-1a5 5 0 0 0-5 5v1h10V8Z" /> {/* Drum top */}
+              <path d="M6 10v3a5 5 0 0 0 5 5h1a4 4 0 0 0 4-4" /> {/* Drum bottom */}
+              <path d="M16 10h3" /> {/* Side handle connection */}
+              <circle cx="20" cy="10" r="2" /> {/* Side wheel/handle */}
+              <path d="M4 18h12" /> {/* Frame base */}
+              <path d="M7 18v-4" /> {/* Frame leg left */}
+              <path d="M15 18v-4" /> {/* Frame leg right */}
+              <circle cx="6" cy="19" r="2" /> {/* Wheel left */}
+              <circle cx="16" cy="19" r="2" /> {/* Wheel right */}
             </svg>
           </div>
           <span className={`text-2xl font-bold tracking-tight ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
