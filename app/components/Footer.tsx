@@ -10,7 +10,22 @@ export default function Footer() {
                     <div>
                         <div className="flex items-center gap-2 mb-6">
                             <div className="bg-primary p-2 rounded-md">
-                                <Hammer className="w-5 h-5 text-black" />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="w-6 h-6 text-black"
+                                >
+                                    <path d="M6 3h12" />
+                                    <path d="M12 3v5" />
+                                    <path d="M9 8h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2" />
+                                    <path d="M12 18v4" />
+                                    <path d="M10 22h4" />
+                                </svg>
                             </div>
                             <span className="text-xl font-bold text-white tracking-tight">
                                 KARYA TEKNIK MANDIRI
